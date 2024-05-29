@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quick Collage</title>
+
+  <head>
+    <title>Page Title</title>
+    <link rel="icon" type="image/x-icon" href="https://i.ibb.co/N7BsCKK/small-logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* Style the body */
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+    }
+    
+    /* Header/logo Title */
+    .header {
+      padding: 20px;
+      text-align: center;
+      background: white;
+      color: black;
+    }
+    
+    /* Increase the font size of the heading */
+    .header h1 {
+      font-size: 40px;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <div class="header">
+      <img src="https://i.ibb.co/x2QpnJV/logo-collage.png" alt="Logo Collage">
+      <h1>WE LIKE TO PUT THE QUICK INTO YOUR COLLAGE</h1>
+      <p>Wil je sneller werken op school? Gebruik dan mijn website!</p>
+    </div>
+
+
+
+
+
+
+
+  <link rel="icon" type="image/x-icon" href="https://i.ibb.co/N7BsCKK/small-logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .topnav {
+      overflow: hidden;
+      background-color: #e9e9e9;
+    }
+
+    .topnav a {
+      float: left;
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    .topnav a.active {
+      background-color: #2196F3;
+      color: white;
+    }
+
+    .topnav input[type=text] {
+      float: right;
+      padding: 6px;
+      margin-top: 8px;
+      margin-right: 16px;
+      border: none;
+      font-size: 17px;
+    }
+
+    @media screen and (max-width: 600px) {
+      .topnav a, .topnav input[type=text] {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+      }
+
+      .topnav input[type=text] {
+        border: 1px solid #ccc;  
+      }
+    }
+
+    .btn {
+      background-color: DodgerBlue;
+      border: none;
+      color: white;
+      padding: 12px 16px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 50px;
+    }
+
+    .btn:hover {
+      background-color: RoyalBlue;
+    }
+
+    body {
+      background-color: black;
+      color: white;
+      font-family: Calibri, sans-serif;
+    }
+
+    .container {
+      display: flex;
+      justify-content: flex-start;
+    }
+
+    .box {
+      border: 1px solid black;
+      padding: 10px;
+      width: fit-content;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .text {
+      color: white;
+    }
+
+    body {
+      background-image: url('https://static.vecteezy.com/system/resources/previews/002/681/564/non_2x/abstract-background-green-blackboard-free-vector.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+
+    .three-column-container {
+      display: flex;
+      height: 50vh;
+    }
+
+    .column {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+    }
+
+    textarea {
+      flex: 1;
+      width: 100%;
+      box-sizing: border-box;
+      resize: none;
+      height: 100%; /* Ensure the textareas fill the column height */
+    }
+
+    .fixed-container {
+      width: 300px;
+    }
+
+    .tooltip {
+      position: relative;
+      display: inline-block;
+    }
+
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -60px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .tooltip .tooltiptext::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: #555 transparent transparent transparent;
+    }
+
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    button {
+      background-color: #ddd;
+      border: none;
+      color: black;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 16px;
+    }
+  </style>
+</head>
+<body>
+
+
+  
+                <h1 class="text">filter your List all at ones</h1>
+        <h2 class="text"></h2>
+        My website filters the old list and the new list and merges them into one list.<br></br>
+          It filters by: (the same word twice, and it automatically removes a blank line).
+        <p class="text">
+          
+    
+
+
+
+
+  <div class="three-column-container">
+    <div class="column">
+      <h2>Old list</h2>
+      <textarea id="list1" placeholder="Type your old list here..."></textarea>
+    </div>
+    <div class="column">
+      <h2>New list</h2>
+      <textarea id="list2" placeholder="Type your new list here..."></textarea>
+    </div>
+    <div class="column fixed-container">
+      <h2>Merged lists</h2>
+      <textarea id="list3" placeholder="In here will the merged list appear..."></textarea>
+    </div>
+  </div>
+
+  <div class="tooltip">
+    <a href="#" onclick="resetLists(); resetList3(); return false;"><img src="https://i.ibb.co/Hr2Gf5Y/prullenbak-logo.png" alt="delete" style="width: 70px; height: 70px;"></a>
+    <span class="tooltiptext">Delete</span>
+</div>
+
+<div class="tooltip">  
+    <span class="tooltiptext">Filter</span>
+    <a href="#" onclick="filterLists(); return false;"><img src="https://i.ibb.co/Hqy5D7r/filter-logo.png" alt="Filter Button" style="width: 70px; height: 70px;"></a>
+</div>
+
+<div class="tooltip">  
+    <span class="tooltiptext">Copy merged list</span>
+    <a href="#" onclick="copyList3(); return false;"><img src="https://i.ibb.co/FhmHcJ2/copy-icon.png" alt="copyList3" style="width: 70px; height: 70px;"></a>
+</div>
+
+<script>
+    function filterLists() {
+        var list1 = document.getElementById("list1").value.split("\n");
+        var list2 = document.getElementById("list2").value.split("\n");
+
+        var mergedList = [...list1, ...list2]; // Merge lists
+        var filteredList = mergedList
+            .map(item => item.trim()) // Trim each item to remove leading/trailing spaces
+            .filter((value, index, self) => self.indexOf(value) === index && value !== ""); // Filter out duplicates and empty strings
+
+        document.getElementById("list3").value = filteredList.join("\n");
+    }
+
+    function resetLists() {
+        document.getElementById("list1").value = "";
+        document.getElementById("list2").value = "";
+    }
+
+    function resetList3() {
+        document.getElementById("list3").value = "";
+    }
+
+    function copyList3() {
+        var list3 = document.getElementById("list3");
+        list3.select();
+        list3.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+    }
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br></br><br></br><br></br><br></br>
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%; /* Toegevoegde eigenschap voor ronde knop */
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px; /* Afstand tussen de velden */
+    align-items: flex-start; /* Zorg ervoor dat de velden bovenaan uitgelijnd zijn */
+  }
+
+  textarea {
+    width: 100%;
+    height: 150px;
+    resize: none;
+  }
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+  }
+
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Positie van de tooltip */
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+</style>
+</head>
+<body>
+
+<section>
+  <h2>Filter your text on *</h2>
+  <div class="container">
+    <textarea id="inputField" placeholder="Typ hier je tekst..."></textarea>
+    <textarea id="outputField" placeholder="Gefilterde tekst verschijnt hier..."></textarea>
+  </div>
+</section>
+
+
+<section>
+  <div class="tooltip">
+    <a href="#" onclick="deleteAllText(event)">
+      <img src="https://i.ibb.co/Hr2Gf5Y/prullenbak-logo.png" alt="Delete Button" style="width: 70px; height: 70px;">
+    </a>
+    <span class="tooltiptext">Delete All Text</span>
+  </div>
+
+  <div class="tooltip">
+    <a href="#" onclick="filterText(event)">
+      <img src="https://i.ibb.co/Hqy5D7r/filter-logo.png" alt="Filter Button" style="width: 70px; height: 70px;">
+    </a>
+    <span class="tooltiptext">Filter</span>
+  </div>
+
+  <div class="tooltip">
+    <a href="#" onclick="copyText77(event)">
+      <img src="https://i.ibb.co/FhmHcJ2/copy-icon.png" alt="Copy Button" style="width: 70px; height: 70px;">
+    </a>
+    <span class="tooltiptext">Copy</span>
+  </div>
+</section>
+
+<script>
+  function filterText(event) {
+    event.preventDefault();
+    const inputField = document.getElementById('inputField');
+    const outputField = document.getElementById('outputField');
+    const filteredText = inputField.value.replace(/\*/g, '');
+    outputField.value = filteredText;
+  }
+
+  function copyText77(event) {
+    event.preventDefault();
+    const outputField = document.getElementById('outputField');
+    outputField.select();
+    outputField.setSelectionRange(0, 99999);
+    document.execCommand("copy");
+  }
+
+  function deleteAllText(event) {
+    event.preventDefault();
+    document.getElementById('inputField').value = '';
+    document.getElementById('outputField').value = '';
+  }
+</script>
+
+
+
+
+</body>
+</html>
+
+
+
+<br></br>
+<br></br>
+<br></br>
+
+
+<section>
+
+
+
+
+
+
+
+
+
+  <!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    .fa {
+      padding: 10px;
+      font-size: 20px;
+      width: 70px;
+      height: 70px; /* Grootte van de knop */
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+    }
+
+    .fa:hover {
+      opacity: 0.7;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      gap: 20px; /* Spacing tussen velden */
+      align-items: flex-start; /* Zorg ervoor dat velden bovenaan zijn uitgelijnd */
+    }
+
+    textarea {
+      width: 100%;
+      height: 150px;
+      resize: none;
+    }
+
+    .tooltip {
+      position: relative;
+      display: inline-block;
+    }
+
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: black;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%; /* Positie van de tooltip */
+      left: 50%;
+      margin-left: -60px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+
+<section>
+  <h2>Text size converter</h2>
+  <div class="container">
+    <textarea id="inputField1" placeholder="Type hier je tekst..."></textarea>
+    <textarea id="outputField2" placeholder="Output verschijnt hier..." readonly></textarea>
+  </div>
+</section>
+
+<section>
+  <div class="tooltip">
+    <a href="#" onclick="clearText(); event.preventDefault();">
+      <img src="https://i.ibb.co/Hr2Gf5Y/prullenbak-logo.png" alt="Delete Button5" class="fa" style="width: 90px; height: 90px;">
+    </a>
+    <span class="tooltiptext">Delete</span>
+  </div>
+  
+  <div class="tooltip">
+    <a href="#" onclick="convertToUppercase(); event.preventDefault();">
+      <img src="https://i.ibb.co/1K79wTQ/klein-naar-groot.png" alt="klein naar groot Button5" class="fa" style="width: 90px; height: 90px;">
+    </a>
+    <span class="tooltiptext">Klein naar Groot</span>
+  </div>
+
+  <div class="tooltip">
+    <a href="#" onclick="convertToLowercase(); event.preventDefault();">
+      <img src="https://i.ibb.co/sQzmF98/groot-naar-klein.png" alt="Groot naar klein Button5" class="fa" style="width: 90px; height: 90px;">
+    </a>
+    <span class="tooltiptext">Groot naar Klein</span>
+  </div>
+
+  <div class="tooltip">
+    <a href="#" onclick="copyText(); event.preventDefault();">
+      <img src="https://i.ibb.co/FhmHcJ2/copy-icon.png" alt="Copy Button5" class="fa" style="width: 90px; height: 90px;">
+    </a>
+    <span class="tooltiptext">Copy</span>
+  </div>
+</section>
+
+<script>
+  function convertToUppercase() {
+    let input = document.getElementById('inputField1').value;
+    let output = input.toUpperCase();
+    document.getElementById('outputField2').value = output;
+  }
+
+  function convertToLowercase() {
+    let input = document.getElementById('inputField1').value;
+    let output = input.toLowerCase();
+    document.getElementById('outputField2').value = output;
+  }
+
+  function copyText() {
+    let output = document.getElementById('outputField2');
+    output.select();
+    document.execCommand("copy");
+  }
+
+  function clearText() {
+    document.getElementById('inputField1').value = '';
+    document.getElementById('outputField2').value = '';
+  }
+</script>
+
+</body>
+</html>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+<br></br>
+<br></br>
+<br></br>
+
+
+
+<section>
+
+  <h1 class="text">Copy your Text to Clipboard with just a mouse click!</h1>
+  <h2 class="text">4 Steps Instruction</h2>
+  <p class="text">
+   
+    1. Press the left mouse button once on the field (Type your text here...)<br>
+    <br>
+    2. Enter the text you want to copy in this field (Type your text here...)<br>
+    <br>
+    3. Press the button ( Copy text) or move the mouse over the button to copy the text in this field (Type your text here...)<br>
+    <br>
+    4. Press (Ctrl + V) on your keyboard to paste your copied text wherever you want.
+  </p>
+
+  
+<br></br>
+<section>
+  <textarea id="myInput51" placeholder="Type your text in here..." style="width:500px; height:300px;"></textarea>
+</section>
+
+<section>
+  <img src="https://i.ibb.co/Hr2Gf5Y/prullenbak-logo.png" style="width: 70px; height: 70px;" onclick="deleteInput51()" onmouseover="deleteInput51()">
+  <img src="https://i.ibb.co/FhmHcJ2/copy-icon.png" style="width: 70px; height: 70px;" onclick="copyToClipboard('myInput51')" onmouseover="copyToClipboard('myInput51')" alt="Copy text">
+</section>
+
+<script>
+function copyToClipboard(elementId) {
+  var copyText = document.getElementById(elementId);
+  copyText.select();
+  document.execCommand("copy");
+}
+
+function deleteInput51() {
+  var inputElement = document.getElementById("myInput51");
+  inputElement.value = "";
+}
+</script>
+
+
+
+</body>
+</html>
+
+
+<br></br>
+<br></br>
+<br></br>
+
+
+
+
+
+
+
+
+<section>
+  <style id="style2">
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* Header/logo Title */
+    #header2 {
+      padding: 0;
+      3
+      text-align: center;
+      color: white;
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+    }
+  
+    /* Video */
+    #video2 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+  
+  <body id="body2">
+    <div id="header2">
+      <video id="video2" autoplay loop muted>
+        <source src="C:\Users\jesse\Downloads\reclame quick collage.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </body>
+</section>
